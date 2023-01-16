@@ -1,9 +1,9 @@
-import { OrbitControls } from "@react-three/drei";
+// import { OrbitControls } from "@react-three/drei";
 
 const Experience = () => {
     return (
         <>
-            <OrbitControls />
+            {/* <OrbitControls /> */}
             <mesh>
                 <boxGeometry />
                 <meshNormalMaterial />
