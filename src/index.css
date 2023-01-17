@@ -29,9 +29,9 @@
     --bg-color: var(--dark-bg-color);
     --bg-secondary-color: var(--dark-bg-secondary-color);
     --text-color: var(--dark-text-color);
-    --bg-color: var(--light-bg-color);
+    /* --bg-color: var(--light-bg-color);
     --bg-secondary-color: var(--light-bg-secondary-color);
-    --text-color: var(--light-text-color);
+    --text-color: var(--light-text-color); */
 }
 
 /* SELECTION*/
@@ -65,6 +65,13 @@ a{
 
 ul{
     list-style: none;
+}
+#root{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 body{
     min-height: 100vh;
